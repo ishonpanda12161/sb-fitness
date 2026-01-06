@@ -5,6 +5,8 @@ A Spring Boot monolith for a simple fitness tracking workflow:
 - Track activities
 - Generate and fetch recommendations
 
+![Database](fitness-sb.png)
+
 ## Run Locally 
 
 ```bash
