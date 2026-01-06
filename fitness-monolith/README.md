@@ -771,21 +771,6 @@ throw new CustomException("message"); // Handled globally
 
 ---
 
-## 🧪 Testing
-
-### Run Tests
-
-```bash
-mvn test
-```
-
-### Test Coverage
-
-- Unit tests for services (mocked repositories)
-- Security tests (MockMvc with Spring Security Test)
-- Application context loads successfully
-
----
 
 ## 📝 Interview Talking Points
 
@@ -812,32 +797,4 @@ mvn test
 
 ### Why This Tech Stack?
 "Spring Boot provides production-ready features out of the box—embedded server, metrics, health checks. PostgreSQL's JSON support gave flexibility without sacrificing relational integrity. JWT enables stateless authentication, which scales horizontally. Lombok reduced boilerplate significantly."
-
----
-
-## 📄 License
-
-This project is open source and available for educational purposes.
-
----
-
-## 👤 Author
-
-**Ishon Panda**  
-📧 Email: pandaishon@gmail.com  
-💼 LinkedIn: [Your LinkedIn]  
-🐙 GitHub: [Your GitHub]
-
----
-
-## 🙏 Acknowledgments
-
-- Spring Boot team for excellent documentation
-- PostgreSQL community for robust database
-- JWT.io for token debugging tools
-- Swagger for API documentation standards
-
----
-
-**Built with ❤️ using Spring Boot**
 
